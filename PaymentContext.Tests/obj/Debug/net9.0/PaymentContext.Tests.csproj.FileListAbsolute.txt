@@ -171,3 +171,4 @@ C:\Dev\PaymentContext\PaymentContext.Tests\bin\Debug\net9.0\PaymentContext.Domai
 C:\Dev\PaymentContext\PaymentContext.Tests\bin\Debug\net9.0\PaymentContext.Shared.dll
 C:\Dev\PaymentContext\PaymentContext.Tests\bin\Debug\net9.0\PaymentContext.Shared.pdb
 C:\Dev\PaymentContext\PaymentContext.Tests\bin\Debug\net9.0\PaymentContext.Domain.pdb
+C:\Dev\PaymentContext\PaymentContext.Tests\obj\Debug\net9.0\PaymentContext.Tests.sourcelink.json
