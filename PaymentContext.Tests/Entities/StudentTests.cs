@@ -11,7 +11,9 @@ public sealed class StudentTests
     public void AdicionarAssinatura()
     {
         var name = new Name("Teste", "Teste");
-        Name.no
+        foreach(var not in name.Notifications)
+        {
+        }
 
     }
 }
