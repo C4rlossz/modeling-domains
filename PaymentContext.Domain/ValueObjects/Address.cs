@@ -1,3 +1,4 @@
+using Flunt.Notifications;
 using Flunt.Validations;
 using PaymentContext.Shared.ValuesObjects;
 
@@ -16,7 +17,7 @@ namespace PaymentContext.Domain.ValueObjects
             ZipCode = zipCode;
 
 
-                AddNotifications(new Contract()
+                AddNotifications(new Contract<Notification>()
                 .Requires()
                 .HasMinLen(Street, 3, "Address.Street", "a rua deve conter pelo menos 3 caracteres")
             );
