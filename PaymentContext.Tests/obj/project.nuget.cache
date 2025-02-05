@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H19d1mWL+pU=",
+  "dgSpecHash": "Pwd33jEP9jQ=",
   "success": true,
-  "projectFilePath": "c:\\Dev\\PaymentContext\\PaymentContext.Tests\\PaymentContext.Tests.csproj",
+  "projectFilePath": "C:\\Dev\\PaymentContext\\PaymentContext.Tests\\PaymentContext.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CARLOS\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512",
     "C:\\Users\\CARLOS\\.nuget\\packages\\microsoft.applicationinsights\\2.22.0\\microsoft.applicationinsights.2.22.0.nupkg.sha512",

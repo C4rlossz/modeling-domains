@@ -1,5 +1,7 @@
 using System.Diagnostics.Contracts;
 using System.Reflection.Metadata;
+using Flunt.Notifications;
+using Flunt.Validations;
 using PaymentContext.Domain.ValueObjects;
 using PaymentContext.Shared.Entities;
 using Document = PaymentContext.Domain.ValueObjects.Document;
@@ -34,7 +36,7 @@ namespace PaymentContext.Domain.Entities
             Address = address;
             Email = email;
 
-            AddNotifications(new Contract()
+            AddNotifications(new Contract<Notification>()
                 .Requires()
                 .IsGreaterThan(0, Total, "Payment.Total", "O total nao pode ser zero")
                 .IsGreaterOrEqualsThan(Total, TotalPaid, "Payment.TotalPaid", "O valor pago e menor que o valor do pagamento")

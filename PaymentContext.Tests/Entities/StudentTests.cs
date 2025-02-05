@@ -20,7 +20,7 @@ namespace PaymentContext.Tests
         public StudentTests ()
         {
 
-            _name = new Name("Bruce", "Wayne");
+            _name = new Name("Barry", "Allen");
             _document = new Document("", EDocumentType.CPF);
             _email = new Email("batman@marvel.com");
             _address = new Address("Rua 1", "1234", "Residencial Gotham", "Gotham", "GO", "USA", "13400000");

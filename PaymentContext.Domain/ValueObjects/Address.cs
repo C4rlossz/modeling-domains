@@ -19,7 +19,6 @@ namespace PaymentContext.Domain.ValueObjects
 
                 AddNotifications(new Contract<Notification>()
                 .Requires()
-                .HasMinLen(Street, 3, "Address.Street", "a rua deve conter pelo menos 3 caracteres")
             );
         }
 
