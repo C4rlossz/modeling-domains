@@ -6,6 +6,8 @@ namespace PaymentContext.Domain.Commands
 {
     public class CreateBoletoSubscriptionCommand : ICommand
     {
+        public string PayerEmail;
+
         // Propriedades
         public string FirstName { get; set; }
         public string LastName { get; set; }
@@ -27,6 +29,8 @@ namespace PaymentContext.Domain.Commands
         public string Payer { get; set; }
         public string PayerDocument { get; set; }
         public EDocumentType PayerDocumentType { get; set; }
+        public bool Valid { get; set; }
+        public string PaymentNumber { get; set; }
 
         public void Validate()
         {
