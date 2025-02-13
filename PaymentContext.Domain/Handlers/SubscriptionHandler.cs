@@ -53,7 +53,7 @@ namespace PaymentContext.Domain.Handlers
 
             // Validar as Notificacoes
             if(Invalid)
-                return new commandResult(false, "nao foi possivel realizar");
+                return new commandResult(false, "Não foi possível realizar sua assinatura");
 
             // Salvar informações
             _repository.CreateSubscription(student);
