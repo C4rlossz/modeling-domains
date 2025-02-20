@@ -26,7 +26,7 @@ namespace PaymentContext.Tests.Mocks
          command.ExpireDate = DateTime.Now.AddMonths(1);
          command.Total =60;
          command.TotalPaid =60;
-         command.Payer ="Cisco LAB";
+         command.Payer ="Laboratórios S.T.A.R.";
          command.PayerDocument ="12345678911";
          command.PayerDocumentType = EDocumentType.CPF;
          command.PayerEmail ="Barry@gmail.com";

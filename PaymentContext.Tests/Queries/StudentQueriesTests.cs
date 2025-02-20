@@ -11,7 +11,7 @@ namespace PaymentContext.Tests
     public class StudentQueriesTests
     {
 
-        // RED, GREEn, REFACTOR
+        // Red, Green, REFACTOR
 
         private IList<Student> _students;
 
