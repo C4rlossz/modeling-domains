@@ -1,5 +1,3 @@
-using System.Reflection.Metadata;
-using System.Transactions;
 using PaymentContext.Domain.ValueObjects;
 using Document = PaymentContext.Domain.ValueObjects.Document;
 
